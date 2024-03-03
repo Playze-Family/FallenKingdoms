@@ -1,0 +1,8 @@
+players:
+  tab_list:
+    header: "\n&6&lFallen Kingdoms 4&r\n&8FAMILY EDITION\n"
+    footer: "\n&7Une question ?\n&f&lWiki&r : &6fk.playze.org/wiki\n"
+
+  respawn:
+    auto_respawn: false
+    protection_time: 5

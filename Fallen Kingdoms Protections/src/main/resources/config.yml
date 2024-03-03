@@ -1,0 +1,11 @@
+blocks:
+  unbreakable:
+    - MOB_SPAWNER
+    - SEA_LANTERN
+
+  indestructible:
+    - CHEST
+    - TRAPPED_CHEST
+    - ENDER_CHEST
+    - MOB_SPAWNER
+    - SEA_LANTERN

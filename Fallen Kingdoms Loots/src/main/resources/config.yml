@@ -1,0 +1,146 @@
+blocks:
+  "emerald_ore":
+    type: EMERALD_ORE
+    probability: 0.10
+
+    items:
+      "protection_one":
+        probability: 0.18
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              PROTECTION_ENVIRONMENTAL: 1
+      "protection_two":
+        probability: 0.04
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+      "protection_three":
+        probability: 0.01
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+      "sharpness_one":
+        probability: 0.18
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DAMAGE_ALL: 1
+      "sharpness_two":
+        probability: 0.04
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DAMAGE_ALL: 2
+      "sharpness_three":
+        probability: 0.01
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DAMAGE_ALL: 3
+      "efficiency_one":
+        probability: 0.18
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DIG_SPEED: 1
+      "efficiency_two":
+        probability: 0.04
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DIG_SPEED: 2
+      "efficiency_three":
+        probability: 0.01
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DIG_SPEED: 3
+      "unbreaking_one":
+        probability: 0.23
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              DURABILITY: 1
+      "feather_falling_two":
+        probability: 0.02
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              PROTECTION_FALL: 2
+      "thorns_two":
+        probability: 0.02
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              THORNS: 2
+      "looting_two":
+        probability: 0.02
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              LOOT_BONUS_MOBS: 2
+      "fortune_two":
+        probability: 0.02
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: ENCHANTED_BOOK
+          meta:
+            ==: ItemMeta
+            meta-type: ENCHANTED
+            stored-enchants:
+              LOOT_BONUS_BLOCKS: 2

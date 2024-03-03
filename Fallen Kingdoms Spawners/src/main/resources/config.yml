@@ -1,0 +1,44 @@
+items:
+  "fk_resources":
+    distance: 30
+    interval: 8
+
+    ## Spawner Type
+    # 'all' : drop all items
+    # 'circular' : drop item by item
+    # 'random' : drop random item
+    type: all
+    particle: FLAME
+
+    locations:
+      "Orange":
+        location:
+          ==: org.bukkit.Location
+          world: "map_fk-edition-4"
+          x: -214.5
+          y: 68.75
+          z: 336.5
+      "Rose":
+        location:
+          ==: org.bukkit.Location
+          world: "map_fk-edition-4"
+          x: 314.5
+          y: 67.75
+          z: 63.5
+      "Cyan":
+        location:
+          ==: org.bukkit.Location
+          world: "map_fk-edition-4"
+          x: -196.5
+          y: 68.75
+          z: -219.5
+
+    items:
+      "apple":
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: APPLE
+      "sugar_cane":
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          type: SUGAR_CANE

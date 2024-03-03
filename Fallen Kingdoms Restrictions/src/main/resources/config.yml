@@ -1,0 +1,112 @@
+enchantments:
+  ## Enchantments Restrictions Properties
+  # 'level_max' is included.
+
+  "fire_aspect":
+    level_max: 0
+  "damage_all":
+    level_max: 3
+
+  "arrow_fire":
+    level_max: 0
+  "arrow_damage":
+    level_max: 3
+
+items:
+  "trapped_chest":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: TRAPPED_CHEST
+
+  "fishing_rod":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+
+  "golden_apple":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+
+  "egg":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EGG
+
+  "snowball":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+
+  "iron_helmet":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+
+    enchantments:
+      "protection_environmental":
+        level_max: 4
+
+  "iron_chestplate":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+
+    enchantments:
+      "protection_environmental":
+        level_max: 4
+
+  "iron_leggings":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+
+    enchantments:
+      "protection_environmental":
+        level_max: 4
+
+  "iron_boots":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+
+    enchantments:
+      "protection_environmental":
+        level_max: 4
+
+  "diamond_helmet":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+
+    enchantments:
+      "protection_environmental":
+        level_max: 3
+
+  "diamond_chestplate":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+
+    enchantments:
+      "protection_environmental":
+        level_max: 3
+
+  "diamond_leggings":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+
+    enchantments:
+      "protection_environmental":
+        level_max: 3
+
+  "diamond_boots":
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+
+    enchantments:
+      "protection_environmental":
+        level_max: 3
