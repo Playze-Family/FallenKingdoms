@@ -1,0 +1,8 @@
+name: "${project.artifactId}"
+website: "${project.parent.url}"
+author: Agon KOLGECI
+
+version: "${project.version}"
+
+load: POSTWORLD
+main: "${project.groupId}.${project.artifactId}"
