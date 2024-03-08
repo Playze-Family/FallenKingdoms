@@ -1,7 +1,7 @@
 package com.agonkolgeci.fk_spawners.items;
 
 import com.agonkolgeci.fk_spawners.FkSpawners;
-import com.agonkolgeci.neptune_api.NeptuneAPI;
+import com.agonkolgeci.neptune_api.FkAPI;
 import com.agonkolgeci.neptune_api.common.config.ConfigSection;
 import com.agonkolgeci.neptune_api.utils.minecraft.entities.EntityUtils;
 import com.agonkolgeci.neptune_api.utils.objects.ObjectUtils;
@@ -101,7 +101,7 @@ public class ItemsSpawner {
         particlePacket.getFloat().write(3, 1F).write(4, 1F).write(5, 1F);
         particlePacket.getIntegers().write(0, distance);
 
-        NeptuneAPI.getProtocolManager().sendServerPacket(player, particlePacket);
+        FkAPI.getProtocolManager().sendServerPacket(player, particlePacket);
     }
 
     public enum Type {

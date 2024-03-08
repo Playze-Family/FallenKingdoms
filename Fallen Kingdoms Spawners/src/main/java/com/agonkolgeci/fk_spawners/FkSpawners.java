@@ -1,12 +1,12 @@
 package com.agonkolgeci.fk_spawners;
 
 import com.agonkolgeci.fk_spawners.items.ItemsSpawnersController;
-import com.agonkolgeci.neptune_api.NeptunePlugin;
+import com.agonkolgeci.neptune_api.FkPlugin;
 import com.agonkolgeci.neptune_api.common.config.ConfigController;
 import lombok.Getter;
 
 @Getter
-public class FkSpawners extends NeptunePlugin {
+public class FkSpawners extends FkPlugin {
 
     @Getter private static FkSpawners instance;
 

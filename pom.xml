@@ -13,8 +13,7 @@
     <url>https://agonkolgeci.com/</url>
 
     <modules>
-        <module>../../Galaxy API/Neptune API 1_8_R1</module>
-
+        <module>Fallen Kingdoms API</module>
         <module>Fallen Kingdoms Core</module>
         <module>Fallen Kingdoms CutClean</module>
         <module>Fallen Kingdoms Restrictions</module>

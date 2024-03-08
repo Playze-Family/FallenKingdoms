@@ -1,12 +1,12 @@
 package com.agonkolgeci.fk_loots;
 
 import com.agonkolgeci.fk_loots.loots.LootsController;
-import com.agonkolgeci.neptune_api.NeptunePlugin;
+import com.agonkolgeci.neptune_api.FkPlugin;
 import com.agonkolgeci.neptune_api.common.config.ConfigController;
 import lombok.Getter;
 
 @Getter
-public class FkLoots extends NeptunePlugin {
+public class FkLoots extends FkPlugin {
 
     @Getter private static FkLoots instance;
 

@@ -2,9 +2,8 @@ package com.agonkolgeci.fk_core.players.display;
 
 import com.agonkolgeci.fk_core.players.FkPlayerCache;
 import com.agonkolgeci.fk_core.players.FkPlayersController;
-import com.agonkolgeci.neptune_api.NeptuneAPI;
+import com.agonkolgeci.neptune_api.FkAPI;
 import com.agonkolgeci.neptune_api.common.config.ConfigSection;
-import com.agonkolgeci.neptune_api.common.events.ListenerAdapter;
 import com.agonkolgeci.neptune_api.common.player.PlayerCacheModule;
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.PacketContainer;
@@ -37,7 +36,7 @@ public class PlayerTabListModule extends PlayerCacheModule<FkPlayersController, 
         headerFooterPacket.getChatComponents().write(0, WrappedChatComponent.fromText(ChatColor.translateAlternateColorCodes('&', header)));
         headerFooterPacket.getChatComponents().write(1, WrappedChatComponent.fromText(ChatColor.translateAlternateColorCodes('&', footer)));
 
-        NeptuneAPI.getProtocolManager().sendServerPacket(player, headerFooterPacket);
+        FkAPI.getProtocolManager().sendServerPacket(player, headerFooterPacket);
     }
 
 }

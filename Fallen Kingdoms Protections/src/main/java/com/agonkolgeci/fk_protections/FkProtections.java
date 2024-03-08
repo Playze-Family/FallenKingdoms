@@ -1,12 +1,12 @@
 package com.agonkolgeci.fk_protections;
 
 import com.agonkolgeci.fk_protections.blocks.BlocksProtectionsController;
-import com.agonkolgeci.neptune_api.NeptunePlugin;
+import com.agonkolgeci.neptune_api.FkPlugin;
 import com.agonkolgeci.neptune_api.common.config.ConfigController;
 import lombok.Getter;
 
 @Getter
-public class FkProtections extends NeptunePlugin {
+public class FkProtections extends FkPlugin {
 
     @Getter private static FkProtections instance;
 

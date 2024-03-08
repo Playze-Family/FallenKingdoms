@@ -22,9 +22,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.agonkolgeci</groupId>
-            <artifactId>NeptuneAPI</artifactId>
-            <version>1.8-R0.1-SNAPSHOT</version>
+            <groupId>com.agonkolgeci.fk_api</groupId>
+            <artifactId>FkAPI</artifactId>
+            <version>4.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 

@@ -2,12 +2,12 @@ package com.agonkolgeci.fk_restrictions;
 
 import com.agonkolgeci.fk_restrictions.enchants.EnchantsRestrictionsController;
 import com.agonkolgeci.fk_restrictions.items.ItemsRestrictionsController;
-import com.agonkolgeci.neptune_api.NeptunePlugin;
+import com.agonkolgeci.neptune_api.FkPlugin;
 import com.agonkolgeci.neptune_api.common.config.ConfigController;
 import lombok.Getter;
 
 @Getter
-public class FkRestrictions extends NeptunePlugin {
+public class FkRestrictions extends FkPlugin {
 
     @Getter private static FkRestrictions instance;
 

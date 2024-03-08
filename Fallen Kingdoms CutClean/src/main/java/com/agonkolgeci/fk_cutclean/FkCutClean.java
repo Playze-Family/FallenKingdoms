@@ -2,12 +2,12 @@ package com.agonkolgeci.fk_cutclean;
 
 import com.agonkolgeci.fk_cutclean.animals.AnimalsCutCleanController;
 import com.agonkolgeci.fk_cutclean.ores.OresCutCleanController;
-import com.agonkolgeci.neptune_api.NeptunePlugin;
+import com.agonkolgeci.neptune_api.FkPlugin;
 import com.agonkolgeci.neptune_api.common.config.ConfigController;
 import lombok.Getter;
 
 @Getter
-public class FkCutClean extends NeptunePlugin {
+public class FkCutClean extends FkPlugin {
 
     @Getter private static FkCutClean instance;
 

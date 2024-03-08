@@ -8,4 +8,4 @@ load: POSTWORLD
 main: "${project.groupId}.${project.artifactId}"
 
 depend:
-  - NeptuneAPI
+  - FkAPI
